@@ -1,5 +1,6 @@
 {
   "name": "portfolio-website",
+
   "version": "1.0.0",
   "description": "A personal portfolio website built with Tailwind CSS",
   "main": "index.js",
@@ -15,3 +16,4 @@
     "tailwindcss": "^3.4.0"
   }
 }
+
