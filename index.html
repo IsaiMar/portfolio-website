@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="./dist/output.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-50 font-sans">
+    <!-- Header -->
+    <header class="bg-white shadow-sm border-b">
+        <div class="container mx-auto px-6 py-4">
+            <nav class="flex justify-between items-center">
+                <h1 class="text-2xl font-bold text-gray-800">My Portfolio</h1>
+                <ul class="flex space-x-6">
+                    <li><a href="#about" class="text-gray-600 hover:text-primary-600 transition-colors">About</a></li>
+                    <li><a href="#projects" class="text-gray-600 hover:text-primary-600 transition-colors">Projects</a></li>
+                    <li><a href="#contact" class="text-gray-600 hover:text-primary-600 transition-colors">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-primary-500 to-primary-700 text-white py-20">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-5xl font-bold mb-4">Hello, I'm John Doe</h2>
+            <p class="text-xl mb-8 opacity-90">Full Stack Developer & UI/UX Designer</p>
+            <button class="btn-primary text-lg px-8 py-3">View My Work</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">About Me</h2>
+            <div class="max-w-3xl mx-auto">
+                <div class="card">
+                    <p class="text-gray-600 leading-relaxed">
+                        I'm a passionate developer with expertise in modern web technologies. 
+                        I love creating beautiful, functional websites and applications that 
+                        provide excellent user experiences.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">My Projects</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="card">
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Project 1</h3>
+                    <p class="text-gray-600 mb-4">A modern web application built with React and Tailwind CSS.</p>
+                    <button class="btn-primary">View Project</button>
+                </div>
+                <div class="card">
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Project 2</h3>
+                    <p class="text-gray-600 mb-4">An e-commerce platform with advanced features and smooth UX.</p>
+                    <button class="btn-primary">View Project</button>
+                </div>
+                <div class="card">
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Project 3</h3>
+                    <p class="text-gray-600 mb-4">A mobile-first responsive website with interactive elements.</p>
+                    <button class="btn-primary">View Project</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Get In Touch</h2>
+            <div class="max-w-lg mx-auto">
+                <div class="card">
+                    <form class="space-y-4">
+                        <input type="text" placeholder="Your Name" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-500 focus:border-transparent">
+                        <input type="email" placeholder="Your Email" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-500 focus:border-transparent">
+                        <textarea placeholder="Your Message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-500 focus:border-transparent"></textarea>
+                        <button type="submit" class="btn-primary w-full">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
