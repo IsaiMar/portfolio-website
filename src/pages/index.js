@@ -6,7 +6,7 @@ export default function Home() {
       <Navbar />
       <main className="p-6 sm:p-10 text-center bg-sage min-h-screen text-roseTaupe">
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
-          Hi, I'm Isai 👋
+          Hi, I`m Isai Mar
         </h1>
         <p className="text-md sm:text-lg md:text-xl text-darkCyan mb-6">
           Recent Computer Science graduate and aspiring full-stack web developer.
